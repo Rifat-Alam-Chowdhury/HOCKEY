@@ -1,0 +1,59 @@
+
+    @media screen  and (min-width: 320px) and (max-width:431px)  {
+
+       
+        .search-and-ticketbtn>.fa-magnifying-glass,.aboutbtns{
+            display: none;
+        }
+        .apostopis{
+            color: rgb(254, 66, 63);
+        }
+
+        nav{
+            display: grid;
+            grid-template-columns: repeat(1fr,1fr,3fr);
+            /* align-items: center; */
+            
+        }
+
+        nav>i{
+            grid-column: 1/2;
+            position: absolute;
+            left: 2em;
+            top: 2em;
+            font-size: x-large;
+        }
+        nav>h1{
+            grid-column: 2/3;
+            position: absolute;
+            left: 3.5em;
+            top: 2em;
+            font-size: x-large;
+        }
+        .search-and-ticketbtn>button{
+            padding: 1rem 2rem;
+            border-radius: 0.5rem;
+            border: none;
+            background-color:rgb(254, 66, 63);
+            color: aliceblue;
+            position: absolute;
+            left: 21em;
+            top: 3em;
+            font-size: smaller;
+
+            font-weight: bolder;
+
+        }
+
+
+        .arrow-down {
+            width: 0;
+            height: 0;
+            border-left: 10px solid transparent;
+            border-right: 10px solid transparent;
+            border-top: 10px solid black; /* Arrow color */
+        }
+
+     
+        
+    }
