@@ -11,6 +11,9 @@
         }
 
        
+        nav>h1{
+            max-width: 10%;
+        }
 
         nav>i{
             position: relative;
@@ -40,14 +43,30 @@
 
         }
 
-        .first-img{
-            /* border: 1px solid red; */
-        }
+      
         .first-img>img{
             /* border: 1px solid green; */
             
-            width: 100%;
+            width: 90%;
+            margin-left: 1.5em;
+            border-radius: 2rem;
             
+        }
+
+        .black-text-in-the-pic{
+            background-color: black;
+            color: aliceblue;
+            font-size: large;
+            margin: 1em;
+            border-radius: 2em;
+            padding: 2em;
+        }
+        .black-text-in-the-pic p{
+            line-height: 1.5em;
+            margin-top: 1em;
+            letter-spacing: 3px;
+            color: gray;
+            font-size: medium;
         }
 
 

@@ -17,9 +17,10 @@
     .aboutbtns a{
         text-decoration: none;
         color: rgba(0, 0, 0, 0.684);
-        
-        
     
+    }
+    .aboutbtns>.Home{
+        color:rgb(254, 66, 63);
     }
     .aboutbtns{
         display: flex;
@@ -55,6 +56,43 @@
         display: none;
     }
 
+
+
+    .first-img>img{
+        width: 75%;
+        margin-left: 9.5em;
+        margin-top: 1.5em;
+        border-radius: 2rem;
+        
+    }
+
+    .first-img{
+        position: absolute;
+        z-index: 1;
+    }
+
+    .black-text-in-the-pic{
+        background-color: black;
+        filter: blur(1px);
+        color: aliceblue;
+        font-size: small;
+        margin: 15em;
+        width: 30%;
+        border-radius: 2em;
+        padding: 2em;
+        position: absolute;
+        z-index: 2;
+        left: 35em;
+        top: 12em;
+
+        
+        }
+    .black-text-in-the-pic p{
+        line-height: 1.5em;
+        letter-spacing: 3px;
+        color: gray;
+        font-size: small;
+    }
 
 
     
