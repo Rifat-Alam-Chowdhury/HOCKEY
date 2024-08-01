@@ -1,4 +1,4 @@
-@media screen and (min-width: 431px){
+@media screen and (min-width: 541px){
 
     nav{
         display: flex;
@@ -75,7 +75,7 @@
 
     .black-text-in-the-pic{
         background-color: black;
-        filter: blur(1px);
+      
         color: aliceblue;
         font-size: small;
         margin: 15em;
